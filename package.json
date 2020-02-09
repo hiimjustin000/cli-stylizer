@@ -1,0 +1,31 @@
+{
+  "name": "cli-stylizer",
+  "version": "1.0.0",
+  "description": "The reliable CLI stylizer",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "keywords": [
+    "cli",
+    "console",
+    "shell",
+    "terminal",
+    "style",
+    "styles",
+    "color",
+    "colour",
+    "colors",
+    "colours",
+    "stylizer",
+    "cli-stylizer"
+  ],
+  "author": "Justin Pridgen",
+  "license": "MIT",
+  "repository": "hiimjustin000/cli-stylizer",
+  "dependencies": {
+    "@types/color-convert": "^1.9.0",
+    "@types/color-name": "^1.1.1",
+    "@types/node": "^13.5.3",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4"
+  }
+}
