@@ -29,7 +29,7 @@ function createStyles() {
         let bgModel = `bg${model[0].toUpperCase()}${model.slice(1)}`;
 
         styles[bgModel] = (...args) => {
-            return createBuilder(createStyler(`\u001b[48;2;${convert[bgModel]["rgb"](args.length == 1 ? `${args[0]}` : `${args.join(" ")}`).join(";")}m`, "\u001b[49m"));
+            return createBuilder(createStyler(`\u001b[48;2;${convert[model]["rgb"](args.length == 1 ? `${args[0]}` : `${args.join(" ")}`).join(";")}m`, "\u001b[49m"));
         }
 
         styles["bgRgb"] = (...args) => {
