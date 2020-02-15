@@ -16,10 +16,6 @@ stylizer.bgBlue("Blue background!");
 stylizer.green.bold("Combinations!");
 
 stylizer.hex("DEADED")("Custom colors!");
-
-stylizer`
-    {red Template literals too!}
-`
 ```
 
 All the default colors are all the css keywords.
