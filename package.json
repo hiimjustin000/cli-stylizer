@@ -1,6 +1,6 @@
 {
   "name": "cli-stylizer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The reliable CLI stylizer",
   "main": "index.js",
   "typings": "index.d.ts",
